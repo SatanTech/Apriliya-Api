@@ -483,7 +483,7 @@ router.get('/downloader/youtube_play_mp4', async (req, res, next) => {
     res.json(msg.error);
   }
 });
-/*
+
 router.get('/downloader/cocofun', async (req, res, next) => {
   try {
     const apikey = req.query.apikey;
@@ -803,7 +803,7 @@ router.get('/info/gempa_terkini', async (req, res, next) => {
     res.json(msg.error);
   }
 });
-/*
+
 router.get('/info/kodepos', async (req, res, next) => {
   try {
     const apikey = req.query.apikey;
@@ -1396,7 +1396,7 @@ router.get('/anime/mal_top_airing', async (req, res, next) => {
     res.json(msg.error);
   }
 });
-/*router.get('/anime/kiryuu', async (req, res, next) => {
+router.get('/anime/kiryuu', async (req, res, next) => {
   try {
     const apikey = req.query.apikey;
     const anime = req.query.anime;
@@ -1427,7 +1427,7 @@ router.get('/anime/mal_top_airing', async (req, res, next) => {
     res.json(msg.error);
   }
 });*/
-/*router.get('/anime/apAnime', async (req, res, next) => {
+router.get('/anime/apAnime', async (req, res, next) => {
   try {
     const apikey = req.query.apikey;
     const anime = req.query.anime;
@@ -1489,7 +1489,7 @@ router.get('/anime/mal_search_anime', async (req, res, next) => {
     res.json(msg.error);
   }
 });
-/*router.get('/anime/apManga', async (req, res, next) => {
+router.get('/anime/apManga', async (req, res, next) => {
   try {
     const apikey = req.query.apikey;
     const manga = req.query.manga;
@@ -1551,7 +1551,7 @@ router.get('/anime/mal_search_manga', async (req, res, next) => {
     res.json(msg.error);
   }
 });
-/*
+
 router.get('/anime/quotesnime', async (req, res, next) => {
   try {
     const apikey = req.query.apikey; 
